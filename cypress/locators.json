@@ -1,0 +1,41 @@
+{
+
+    "loodgieterlocator":{
+        "InitialWaterleidingBtn":"div.root__serviceLandingPageC__9be03a4c div.wallpaper__serviceLandingPageC__9be03a4c:nth-child(6) div.root__maxWidth__910aa153.l__maxWidth__910aa153.banner__serviceLandingPageC__9be03a4c div.bannerCta__serviceLandingPageC__9be03a4c div:nth-child(1) div.useCols__radioList__8f0c5a95.maxFiveMobile__radioList__8f0c5a95 div:nth-child(1) div.root__RadioCheckboxItem__25b1c9d6.twoLines__RadioCheckboxItem__25b1c9d6:nth-child(1) > label.item__RadioCheckboxItem__25b1c9d6.false",
+        "ResultElement":"div.main__searchPage__1a11b71:nth-child(6) div.proList__searchPage__1a11b71 div.wrapper__proList__9dbb8d31 div.proList__proList__9dbb8d31 div.itemWrapper__proList__9dbb8d31:nth-child(1) div.rootCard__proListItemNewest__465d0f9.hideDesc__proListItemNewest__465d0f9.expVarListingButtons__proListItemNewest__465d0f9 div.row__proListItemNewest__465d0f9 div.buttonCol__proListItemNewest__465d0f9 div.buttonRow__proListItemNewest__465d0f9.row__styles__87558282 div.padding-x__styles__87558282 button.btnReset__button__5b079537.blueFull__button__5b079537 div.quoteButtonText__ctaButton__6fbca880 > span.hideSmaller__ctaButton__6fbca880",
+        "waterleidingRadioBtn":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.steps__wizardPage__1673af03 div.root__animatedPages__67ee4bef.wrapper__wizardPage__1673af03 div.wrapper__animatedPages__67ee4bef div.modalRoot__proRequestForm__cb656f09 div.questionBlock__proRequestForm__cb656f09.subjectQuestion__proRequestForm__cb656f09.fullPage__proRequestForm__cb656f09 div:nth-child(1) div.useCols__radioList__8f0c5a95 div:nth-child(1) div.root__RadioCheckboxItem__25b1c9d6.large__RadioCheckboxItem__25b1c9d6.exp__RadioCheckboxItem__25b1c9d6:nth-child(1) > label.item__RadioCheckboxItem__25b1c9d6.selected__RadioCheckboxItem__25b1c9d6",
+        "reparenElement":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.steps__wizardPage__1673af03 div.root__animatedPages__67ee4bef.wrapper__wizardPage__1673af03 div.wrapper__animatedPages__67ee4bef div.enterDone__animatedPages__67ee4bef div.modalRoot__proRequestForm__cb656f09 div.questionBlock__proRequestForm__cb656f09.fullPage__proRequestForm__cb656f09 div:nth-child(1) div.useCols__radioList__8f0c5a95 div:nth-child(1) div.root__RadioCheckboxItem__25b1c9d6.large__RadioCheckboxItem__25b1c9d6.exp__RadioCheckboxItem__25b1c9d6:nth-child(1) > label.item__RadioCheckboxItem__25b1c9d6.false",
+        "InOverlayElement":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.steps__wizardPage__1673af03 div.root__animatedPages__67ee4bef.wrapper__wizardPage__1673af03 div.wrapper__animatedPages__67ee4bef div.enterDone__animatedPages__67ee4bef div.modalRoot__proRequestForm__cb656f09 div.questionBlock__proRequestForm__cb656f09.fullPage__proRequestForm__cb656f09 div:nth-child(1) div.useCols__radioList__8f0c5a95 div:nth-child(1) div.root__RadioCheckboxItem__25b1c9d6.large__RadioCheckboxItem__25b1c9d6.exp__RadioCheckboxItem__25b1c9d6:nth-child(1) > label.item__RadioCheckboxItem__25b1c9d6.false",
+        "ComparePriceElement":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.steps__wizardPage__1673af03 div.root__animatedPages__67ee4bef.wrapper__wizardPage__1673af03 div.wrapper__animatedPages__67ee4bef div.enterDone__animatedPages__67ee4bef div.modalRoot__proRequestForm__cb656f09 div:nth-child(4) div.useCols__radioList__8f0c5a95 div:nth-child(1) div.root__RadioCheckboxItem__25b1c9d6.large__RadioCheckboxItem__25b1c9d6.exp__RadioCheckboxItem__25b1c9d6:nth-child(1) > label.item__RadioCheckboxItem__25b1c9d6.selected__RadioCheckboxItem__25b1c9d6",
+        "NextQuestionElement1":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.footer__wizardPage__1673af03 div:nth-child(1) div.sendRow__proRequestForm__cb656f09.row__styles__87558282.middle-xs__styles__87558282.between-xs__styles__87558282 div.padding-x__styles__87558282:nth-child(2) button.btnReset__button__5b079537.default__button__5b079537 > span.large__proRequestForm__cb656f09",
+        "MoreInforTextElement":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.steps__wizardPage__1673af03 div.root__animatedPages__67ee4bef.wrapper__wizardPage__1673af03 div.wrapper__animatedPages__67ee4bef div.enterDone__animatedPages__67ee4bef div:nth-child(1) div.modalRoot__proRequestForm__cb656f09.details__proRequestForm__cb656f09.wide__proRequestForm__cb656f09 div.root__inputField__f8583b:nth-child(3) label.label__inputField__f8583b > textarea.input__inputField__f8583b",
+        "EmailElement":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.steps__wizardPage__1673af03 div.root__animatedPages__67ee4bef.wrapper__wizardPage__1673af03 div.wrapper__animatedPages__67ee4bef div.enterDone__animatedPages__67ee4bef div.modalRoot__proRequestForm__cb656f09.wide__proRequestForm__cb656f09 div:nth-child(1) div:nth-child(1) div.root__inputField__f8583b label.label__inputField__f8583b > input.input__inputField__f8583b",
+        "NextQuestionElement2":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.footer__wizardPage__1673af03 div:nth-child(1) div.sendRow__proRequestForm__cb656f09.row__styles__87558282.middle-xs__styles__87558282.between-xs__styles__87558282 div.padding-x__styles__87558282:nth-child(2) > button.btnReset__button__5b079537.default__button__5b079537",
+        "NameField":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.steps__wizardPage__1673af03 div.root__animatedPages__67ee4bef.wrapper__wizardPage__1673af03 div.wrapper__animatedPages__67ee4bef div.enterDone__animatedPages__67ee4bef div.modalRoot__proRequestForm__cb656f09.wide__proRequestForm__cb656f09 div:nth-child(1) div:nth-child(2) div.root__inputField__f8583b label.label__inputField__f8583b > input.input__inputField__f8583b",
+        "TelephoneField":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.steps__wizardPage__1673af03 div.root__animatedPages__67ee4bef.wrapper__wizardPage__1673af03 div.wrapper__animatedPages__67ee4bef div.enterDone__animatedPages__67ee4bef div.modalRoot__proRequestForm__cb656f09.wide__proRequestForm__cb656f09 div:nth-child(1) div:nth-child(2) div.root__inputField__f8583b label.label__inputField__f8583b > input.input__inputField__f8583b",
+        "ReceiveQuote":"div.container__wizardPage__1673af03 div.root__wizardPage__1673af03 div.footer__wizardPage__1673af03 div:nth-child(1) div.sendRow__proRequestForm__cb656f09.row__styles__87558282.middle-xs__styles__87558282.between-xs__styles__87558282 div.padding-x__styles__87558282:nth-child(2) > button.btnReset__button__5b079537.default__button__5b079537",
+        "cookieBtn":"a#btn_cookies_accept_all",
+        "dienst":"input[placeholder='Welke dienst zoek je?']",
+        "locatie":"//input[@name='location']"
+    },
+
+
+    "testofficeloginscreen":{
+        "login":"div.desktop div.login-page-wrapper div.login-page-inner div.pos-rel div.area.off-n:nth-child(3) > button.button_btnReset__ZpwIa.button_default__NxHKK.btn.col-12",
+        "password":"div.desktop div.login-page-wrapper div.login-page-inner div.pos-rel div.area:nth-child(2) div.area.off-n-min:nth-child(2) div.material-input.with-icon.new-g-style label.material-label.up > input:nth-child(3)",
+        "LoginButton":"div.desktop div.login-page-wrapper div.login-page-inner div.pos-rel div.area.off-n:nth-child(3) > button.button_btnReset__ZpwIa.button_default__NxHKK.btn.col-12"
+
+    },
+
+
+    "testofficedashboard":{
+        "Requests":"div.desktop div.Page_root__wOxiR:nth-child(1) div.styles_row__Rnl4n div.styles_col-xs__1IDYH:nth-child(1) div.navigation_root__DRY0T.navigation_isTest__3NItW div.navigation_toggles__Qbz3g div.toggle-container:nth-child(3) div.body div:nth-child(1) div.navigation_subs__WkC3h > a.navigation_active__7dcTM:nth-child(1)"
+
+    }
+
+
+   
+    
+
+
+}
