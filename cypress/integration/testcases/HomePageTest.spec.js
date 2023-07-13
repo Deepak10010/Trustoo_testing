@@ -4,7 +4,7 @@ import HomePageActions from "../../pageobjects/pageactions/HomePageActions"
 
 
 
-describe("Click on one of the Loodgieters",()=> {
+describe("Scenario1 ",()=> {
 
     Cypress.on('uncaught:exception', (err, runnable) => {
         // returning false here prevents Cypress from
@@ -13,43 +13,51 @@ describe("Click on one of the Loodgieters",()=> {
       })
 
     const firstPage = new HomePageActions()
+
     
 
     beforeEach(()=>{
+      
         firstPage.navigateToURL()    
         firstPage.clickCookieBtn()   
 
     })   
 
 
-    it('Scenario 1', () => {
+    it('Testing Scenario 1', () => {
 
+        cy.log('Entering service name');
         
-        // cy.wait(3000);
+        cy.wait(3000);
 
-        // firstPage.enterdienstvalue()
+        firstPage.enterdienstvalue()
 
-        // cy.wait(7000);
+        cy.wait(7000);
 
-        // cy.get('body').click()
-        // cy.wait(4000);
+        cy.get('body').click()
+        cy.wait(4000);
+
+        cy.log("Entering Location name")
+        firstPage.enterlocatievalue()
+
+        cy.wait(7000);
+
+        cy.get('body').click()
+        cy.wait(4000);
 
 
-        // firstPage.enterlocatievalue()
-
-        // cy.wait(7000);
-
-        // cy.get('body').click()
-        // cy.wait(4000);
-
-        // firstPage.clickzoekenbtn()
-        // cy.wait(3000);
+        cy.log("Clicking search button")
+        firstPage.clickzoekenbtn()
+        cy.wait(3000);
        
-        cy.visit("http://localhost:3000/noord-brabant/tilburg/loodgieter")
+        //cy.visit("http://localhost:3000/noord-brabant/tilburg/loodgieter")
 
         cy.contains('Vind een top 10 Loodgieter in Tilburg').should('be.visible');
         cy.scrollTo(0, 500);
 
+
+
+        cy.log("Clicking the first result")
         firstPage.clickFirstResult()
 
         cy.wait(3000);
@@ -60,6 +68,7 @@ describe("Click on one of the Loodgieters",()=> {
 
         firstPage.clickReparenBtn()
         cy.wait(7000);
+
 
         firstPage.clickDurationBtn()
         cy.wait(7000);
@@ -72,7 +81,7 @@ describe("Click on one of the Loodgieters",()=> {
         firstPage.clickNextQuestionBtn()
         cy.wait(7000);
 
-
+        cy.log("Entering Additional information field")
         firstPage.EnterAdditionalInfoField()
         cy.wait(4000);
 
@@ -80,6 +89,7 @@ describe("Click on one of the Loodgieters",()=> {
         firstPage.clickNextQuestionBtn()
         cy.wait(4000);
 
+        cy.log("Enter Email")
         firstPage.EnterEmail()
         cy.wait(4000);
 
@@ -87,7 +97,7 @@ describe("Click on one of the Loodgieters",()=> {
         firstPage.clickFurtherBtn()
         cy.wait(4000);
 
-
+        cy.log("Enter the Name")
         firstPage.EnterNameField()
         cy.wait(4000);
 
@@ -95,7 +105,7 @@ describe("Click on one of the Loodgieters",()=> {
         firstPage.clickFurtherBtn()
         cy.wait(4000);
 
-
+        cy.log("Enter the telephone number")
         firstPage.EnterTelephoneField()
         cy.wait(4000);
         
@@ -107,9 +117,6 @@ describe("Click on one of the Loodgieters",()=> {
         cy.contains('Je aanvraag is verstuurd!').should('be.visible');
 
         
-
-
-
       });
     
     

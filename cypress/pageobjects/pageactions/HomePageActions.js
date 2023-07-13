@@ -10,6 +10,9 @@ export default class HomePageActions{
         globalThis.element = new HomePageElements();
     }
 
+
+    
+
     navigateToURL(){
         cy.visit('/');
     }
