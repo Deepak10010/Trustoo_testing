@@ -15,7 +15,13 @@
         "NextQuestion":".btnReset__button__5b079537 > .large__proRequestForm__cb656f09",
         "AdditionalInfoField":".input__inputField__f8583b",
         "Email":".input__inputField__f8583b",
-        "FurtherBtn":":nth-child(2) > .btnReset__button__5b079537"
+        "FurtherBtn":".btnReset__button__5b079537.default__button__5b079537",
+        "Name":".input__inputField__f8583b",
+        "Telephone":"input[placeholder='Telefoonnummer']"
+        
+
+
+        
     }
 
     

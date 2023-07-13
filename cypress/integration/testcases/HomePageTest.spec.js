@@ -84,11 +84,29 @@ describe("Click on one of the Loodgieters",()=> {
         cy.wait(4000);
 
 
-        firstPage.clickNextQuestionBtn()
+        firstPage.clickFurtherBtn()
         cy.wait(4000);
 
 
-        cy.get('body').click()
+        firstPage.EnterNameField()
+        cy.wait(4000);
+
+
+        firstPage.clickFurtherBtn()
+        cy.wait(4000);
+
+
+        firstPage.EnterTelephoneField()
+        cy.wait(4000);
+        
+
+        firstPage.clickFurtherBtn()
+        cy.wait(4000);
+
+
+        cy.contains('Je aanvraag is verstuurd!').should('be.visible');
+
+        
 
 
 

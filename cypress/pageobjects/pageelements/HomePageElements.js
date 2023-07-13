@@ -70,5 +70,15 @@ export default class HomePageElements{
         return cy.get(or.Homepagelocator.FurtherBtn)
    }
 
+   NameField(){
+     return cy.get(or.Homepagelocator.Name)
+   }
+
+
+
+   TelephoneField(){
+     return cy.get(or.Homepagelocator.Telephone)
+   }
+
 
 }

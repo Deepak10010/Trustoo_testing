@@ -80,4 +80,14 @@ export default class HomePageActions{
         element.FurtherBtn().click()
     }
 
+
+    EnterNameField(){
+        element.NameField().type('Dee Dee')
+    }
+
+
+    EnterTelephoneField(){
+        element.TelephoneField().type('3123123412')
+    }
+
 }
