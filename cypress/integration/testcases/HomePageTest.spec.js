@@ -3,6 +3,8 @@
 import HomePageActions from "../../pageobjects/pageactions/HomePageActions"
 
 
+const allure = Cypress.Allure.reporter.getInterface();
+
 
 describe("Scenario1 ",()=> {
 
@@ -26,26 +28,30 @@ describe("Scenario1 ",()=> {
 
     it('Testing Scenario 1', () => {
 
+        allure.feature("Completing the request process using the Service name and the location name from the home page")
+        allure.description("Entering service name")
         cy.log('Entering service name');
         
         cy.wait(3000);
 
         firstPage.enterdienstvalue()
 
-        cy.wait(7000);
+        cy.wait(10000);
 
         cy.get('body').click()
         cy.wait(4000);
 
+        allure.description("Entering Location name")
         cy.log("Entering Location name")
         firstPage.enterlocatievalue()
 
-        cy.wait(7000);
+        cy.wait(10000);
 
         cy.get('body').click()
         cy.wait(4000);
 
 
+        allure.description("Clicking search button")
         cy.log("Clicking search button")
         firstPage.clickzoekenbtn()
         cy.wait(3000);

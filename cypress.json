@@ -3,11 +3,12 @@
     "chromeWebSecurity": false,
     "baseUrl": "http://localhost:3000",
     "pageLoadTimeout":200000,
-
+    "video":true,
 
     "reporter":"mochawesome",
     "reporterOptions":{
         "reportDir":"cypress/reports",
+        "reporter": "mocha-allure-reporter",
         "reportFilename":"testresults",
         "overwrite":false,
         "html":true,

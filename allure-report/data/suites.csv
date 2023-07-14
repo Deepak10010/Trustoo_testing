@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Jul 14 12:13:33 CEST 2023","Fri Jul 14 12:15:01 CEST 2023","88611","","Scenario1 ","","Scenario1 ","Testing Scenario 1","Testing Scenario 1",""
+"failed","Fri Jul 14 12:13:33 CEST 2023","Fri Jul 14 12:15:01 CEST 2023","88620","","Scenario1 ","","","","Testing Scenario 1",""
