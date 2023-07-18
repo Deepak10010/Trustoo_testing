@@ -31,6 +31,16 @@
         "aanvraag_reclameren":".styles_end-xs__-qRXX > .styles_padding-x__ryzp7 > .button_btnReset__TqNNw",
         "Iksnaphet":"button[title='Ik snap het!']"
 
+    },
+
+
+    "Scenario2_locators":{
+        "category":":nth-child(1) > .root__serviceBlock__a0759bbf > .a__a__f9d4c274 > .bottom__serviceBlock__a0759bbf > .serviceName__serviceBlock__a0759bbf",
+        "FirstResultElement":"#_pro_sterenborg-schilder-en-vastgoedonderhoud > .rootCard__proListItemNewest__465d0f9 > a > .row__proListItemNewest__465d0f9 > .buttonCol__proListItemNewest__465d0f9 > .buttonRow__proListItemNewest__465d0f9 > :nth-child(2) > .btnReset__button__5b079537",
+        "place":"//div[@class='before__inputField__f8583b ']",
+        "Further":".sendRow__proRequestForm__cb656f09 > .padding-x__styles__87558282",
+        "PageResult":":nth-child(1) > label > .input__RadioCheckboxItemWithIcon__b108af27 > .root__radioIcon__172b8238"
+        
 
     }
 

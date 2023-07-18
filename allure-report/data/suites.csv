@@ -1,3 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 14 16:58:09 CEST 2023","Fri Jul 14 16:59:02 CEST 2023","52864","","Testing the page guide ","","Testing the page guide ","Testing Page Guide","Testing Page Guide",""
+"passed","Fri Jul 14 16:58:10 CEST 2023","Fri Jul 14 16:59:02 CEST 2023","51375","","Testing the page guide ","","","","Testing Page Guide",""
 "failed","Fri Jul 14 12:13:33 CEST 2023","Fri Jul 14 12:15:01 CEST 2023","88611","","Scenario1 ","","Scenario1 ","Testing Scenario 1","Testing Scenario 1",""
 "failed","Fri Jul 14 12:13:33 CEST 2023","Fri Jul 14 12:15:01 CEST 2023","88620","","Scenario1 ","","","","Testing Scenario 1",""
