@@ -20,7 +20,7 @@ describe("Scenario1 ",()=> {
 
     beforeEach(()=>{
       
-      cy.visit("https://trustoo.nl:3000")   
+      cy.visit("http://trustoo.nl:3000")   
         firstPage.clickCookieBtn()   
 
     })   

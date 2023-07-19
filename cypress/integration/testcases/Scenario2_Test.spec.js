@@ -57,61 +57,61 @@ describe("Testing the Scenario 2 ",()=> {
 
          sce_2.clickverder()
 
-         cy.wait(4000);
+         cy.wait(6000);
          
          sce_2.clickresultelement()
 
-         cy.wait(4000);
+         cy.wait(10000);
 
          sce_2.clickverderBtn()
 
-         cy.wait(3000)
+         cy.wait(10000)
 
          sce_2.clickminderdan()
 
-         cy.wait(3000)
+         cy.wait(5000)
          cy.contains('Hoe oud is de woning?').should('be.visible');
 
 
          sce_2.clickouderdan()
-         cy.wait(3000)
+         cy.wait(6000)
 
          sce_2.clickwanneerBtn()
-         cy.wait(3000)
+         cy.wait(6000)
 
 
          sce_2.clickwanneerBtn()
-         cy.wait(3000)
+         cy.wait(5000)
 
          sce_2.clickfotosnee()
-         cy.wait(3000)
+         cy.wait(6000)
 
          sce_2.enterAdditionalInfo()
-         cy.wait(3000)
+         cy.wait(6000)
 
 
          sce_2.clickverderBtn()
-         cy.wait(3000)
+         cy.wait(6000)
 
          sce_2.enteremailfield()
-         cy.wait(3000)
+         cy.wait(6000)
 
 
          sce_2.clickverderBtn()
-         cy.wait(3000)
+         cy.wait(6000)
 
 
          sce_2.enternamefield()
 
          sce_2.clickverderBtn()
-         cy.wait(3000)
+         cy.wait(6000)
 
 
          sce_2.entertelefoonfield()
          cy.wait(2000)
 
          sce_2.clickverderBtn()
-         cy.wait(3000)
+         cy.wait(6000)
 
 
          cy.contains('Je aanvraag is verstuurd!').should('be.visible');
