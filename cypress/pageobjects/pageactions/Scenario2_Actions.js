@@ -30,12 +30,51 @@ export default class Scenario2_Actions{
 
 
     clickverder(){
-        element.verder().click({ multiple: true })
+        element.verder().click()
     }
 
 
     clickresultelement(){
         element.resultelement().click()
     }
+
+
+    clickdimensionsoptionsBtn(){
+        element.dimensions_options_choice().click()
+    }
+
+
+    clickverderBtn(){
+        element.verderBtn().click()
+    }
+
+
+    clickminderdan(){
+        element.minderdan().click()
+    }
+
+
+    clickouderdan(){
+        element.ouderdanbBtn().click()
+    }
+
+
+    clickwanneerBtn(){
+        element.wanneerBtn().click()
+    }
+
+
+    clickfotosnee(){
+        element.fotosneeBtn().click()
+    }
+
+
+    enterAdditionalInfo(){
+        element.additionalInfo().type('Niets voor nu')
+    }
+
+
+    
+    
 
 }

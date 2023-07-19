@@ -39,7 +39,20 @@
         "FirstResultElement":"#_pro_sterenborg-schilder-en-vastgoedonderhoud > .rootCard__proListItemNewest__465d0f9 > a > .row__proListItemNewest__465d0f9 > .buttonCol__proListItemNewest__465d0f9 > .buttonRow__proListItemNewest__465d0f9 > :nth-child(2) > .btnReset__button__5b079537",
         "place":"//div[@class='before__inputField__f8583b ']",
         "Further":".sendRow__proRequestForm__cb656f09 > .padding-x__styles__87558282",
-        "PageResult":":nth-child(1) > label > .input__RadioCheckboxItemWithIcon__b108af27 > .root__radioIcon__172b8238"
+        "PageResult":":nth-child(1) > label > .input__RadioCheckboxItemWithIcon__b108af27 > .root__radioIcon__172b8238",
+        "dimensions_options":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6 > .root__radioIcon__172b8238",
+        "Verder":"//button[@class='btnReset__button__5b079537 default__button__5b079537    ']",
+        "minder_dan_20m":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6 > .root__radioIcon__172b8238",
+        "ouderdan2jaar":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6 > .root__radioIcon__172b8238 > div",
+        "wanneer1":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6",
+        "fotos_nee":":nth-child(2) > .item__RadioCheckboxItem__25b1c9d6",
+        "sce2_AdditionalInfoField":".input__inputField__f8583b",
+        "sce2_Email":".input__inputField__f8583b",
+        "sce2_FurtherBtn":".btnReset__button__5b079537.default__button__5b079537",
+        "sce2_Name":".input__inputField__f8583b",
+        "sce2_Telephone":"input[placeholder='Telefoonnummer']",
+        "sce2_NextQuestion":".btnReset__button__5b079537 > .large__proRequestForm__cb656f09"
+        
         
 
     }

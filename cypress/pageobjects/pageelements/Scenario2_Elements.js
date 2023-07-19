@@ -34,4 +34,41 @@ export default class Scenario2_Elements{
         return cy.get(or.Scenario2_locators.PageResult)
     }
 
+
+    dimensions_options_choice(){
+        return cy.get(or.Scenario2_locators.dimensions_options)
+    }
+
+    verderBtn(){
+        return cy.xpath(or.Scenario2_locators.Verder)
+    }
+
+
+    minderdan(){
+        return cy.get(or.Scenario2_locators.minder_dan_20m)
+    }
+
+
+    ouderdanbBtn(){
+        return cy.get(or.Scenario2_locators.ouderdan2jaar)
+    }
+
+
+    wanneerBtn(){
+        return cy.get(or.Scenario2_locators.wanneer1)
+    }
+
+
+    fotosneeBtn(){
+        return cy.get(or.Scenario2_locators.fotos_nee)
+    }
+
+
+    additionalInfo(){
+        return cy.get(or.Scenario2_locators.sce2_AdditionalInfoField)
+    }
+
+
+   
+
 }

@@ -61,9 +61,39 @@ describe("Testing the Scenario 2 ",()=> {
          
          sce_2.clickresultelement()
 
-         cy.wait(2000);
+         cy.wait(4000);
 
-         sce_2.clickverder()
+         sce_2.clickverderBtn()
+
+         cy.wait(3000)
+
+         sce_2.clickminderdan()
+
+         cy.wait(3000)
+         cy.contains('Hoe oud is de woning?').should('be.visible');
+
+
+         sce_2.clickouderdan()
+         cy.wait(3000)
+
+         sce_2.clickwanneerBtn()
+         cy.wait(3000)
+
+
+         sce_2.clickwanneerBtn()
+         cy.wait(3000)
+
+         sce_2.clickfotosnee()
+         cy.wait(3000)
+
+         sce_2.enterAdditionalInfo()
+         cy.wait(3000)
+
+
+         sce_2.clickverderBtn()
+         cy.wait(3000)
+
+       
           
         });
 
