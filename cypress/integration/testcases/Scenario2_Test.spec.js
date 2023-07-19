@@ -93,6 +93,31 @@ describe("Testing the Scenario 2 ",()=> {
          sce_2.clickverderBtn()
          cy.wait(3000)
 
+         sce_2.enteremailfield()
+         cy.wait(3000)
+
+
+         sce_2.clickverderBtn()
+         cy.wait(3000)
+
+
+         sce_2.enternamefield()
+
+         sce_2.clickverderBtn()
+         cy.wait(3000)
+
+
+         sce_2.entertelefoonfield()
+         cy.wait(2000)
+
+         sce_2.clickverderBtn()
+         cy.wait(3000)
+
+
+         cy.contains('Je aanvraag is verstuurd!').should('be.visible');
+
+         sce_2.clickverderBtn()
+         cy.wait(3000)
        
           
         });

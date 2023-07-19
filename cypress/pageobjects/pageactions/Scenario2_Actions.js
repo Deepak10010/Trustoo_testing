@@ -75,6 +75,18 @@ export default class Scenario2_Actions{
 
 
     
+    enteremailfield(){
+        element.emailfield().type('dee@gmail.com')
+    }
     
+
+    enternamefield(){
+        element.namefield().type('Dee')
+    }
+
+
+    entertelefoonfield(){
+        element.telefoonfield().type('31212353123')
+    }
 
 }

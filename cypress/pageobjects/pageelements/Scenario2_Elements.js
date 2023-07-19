@@ -70,5 +70,18 @@ export default class Scenario2_Elements{
 
 
    
+    emailfield(){
+        return cy.get(or.Scenario2_locators.sce2_Email)
+    }
+
+
+    namefield(){
+        return cy.get(or.Scenario2_locators.sce2_Name)
+    }
+
+
+    telefoonfield(){
+        return cy.get(or.Scenario2_locators.sce2_Telephone)
+    }
 
 }
