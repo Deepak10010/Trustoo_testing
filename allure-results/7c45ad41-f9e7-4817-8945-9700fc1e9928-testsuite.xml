@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689779800036' stop='1689779847318'>
+    <name>Testing the Scenario 2 </name>
+    <title>Testing the Scenario 2 </title>
+    <test-cases>
+        <test-case start='1689779800036' status='failed' stop='1689779847292'>
+            <name>Testing Scenario 2</name>
+            <title>Testing Scenario 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying: Expected to find content: 'Waar zoek je een schilder?' but never did.</message>
+                <stack-trace>AssertionError: Timed out retrying: Expected to find content: 'Waar zoek je een schilder?' but never did.
+                    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress\integration\testcases\Scenario2_Test.spec.js:187:47)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
