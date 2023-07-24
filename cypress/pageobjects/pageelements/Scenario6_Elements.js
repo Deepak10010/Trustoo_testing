@@ -34,15 +34,14 @@ export default class Scenario6_Elements{
         return cy.get(or.Scenario6_locators.sce6_waterleiding)
     }
 
-    //
-
+  
 
     sce6_Reparen(){
         return cy.get(or.Scenario6_locators.sce6_Reparen)
     }
 
     sce6_duration(){
-        return cy.xpath(or.Scenario6_locators.sce6_duration)
+        return cy.get(or.Scenario6_locators.sce6_duration)
     }
 
 
@@ -51,19 +50,14 @@ export default class Scenario6_Elements{
     }
 
 
-    sce6_ouderdanbBtn(){
-        return cy.get(or.Scenario6_locators.sce6_ouderdan2jaar)
+    jaBtn(){
+        return cy.get(or.Scenario6_locators.ja)
     }
 
 
-    sce6_wanneerBtn(){
-        return cy.get(or.Scenario6_locators.sce6_wanneer1)
-    }
-
-
-    sce6_fotosneeBtn(){
-        return cy.get(or.Scenario6_locators.sce6_fotos_nee)
-    }
+   sce6_Nextquestion(){
+    return cy.get(or.Scenario6_locators.sce6_NextQuestion)
+   }
 
 
     sce6_additionalInfo(){
@@ -74,6 +68,11 @@ export default class Scenario6_Elements{
    
     sce6_emailfield(){
         return cy.get(or.Scenario6_locators.sce6_Email)
+    }
+
+
+    verderBtn(){
+        return cy.get(or.Scenario6_locators.verder)
     }
 
 

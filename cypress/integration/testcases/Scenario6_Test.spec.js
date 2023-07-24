@@ -33,14 +33,6 @@ describe("Testing the Scenario 6 ",()=> {
           allure.feature("Testing Scenario 6")
   
           
-        //  sce_2.clickcategorytile()
-
-        //  cy.wait(10000);
-  
-        //  cy.contains('Vind een top 10').should('be.visible');
-
-        //  cy.scrollTo(0, 700);
-
          sce_6.sce6_clickgetquote()
 
          cy.wait(7000);
@@ -71,54 +63,45 @@ describe("Testing the Scenario 6 ",()=> {
          sce_6.sce6_clickduration()
 
          cy.wait(5000)
-        //  cy.contains('Hoe oud is de woning?').should('be.visible');
+       
+
+        sce_6.clickjaBtn()
 
 
-        //  sce_6.clickouderdan()
-        //  cy.wait(6000)
-
-        //  sce_6.clickwanneerBtn()
-        //  cy.wait(6000)
+        sce_6.sce6_clicknextquestion()
 
 
-        //  sce_6.clickwanneerBtn()
-        //  cy.wait(5000)
-
-        //  sce_6.clickfotosnee()
-        //  cy.wait(6000)
-
-        //  sce_6.enterAdditionalInfo()
-        //  cy.wait(6000)
+         sce_6.sce6_enterAdditionalInfo()
+         cy.wait(6000)
 
 
-        //  sce_6.clickverderBtn()
-        //  cy.wait(6000)
+         sce_6.sce6_clicknextquestion()
+         cy.wait(6000)
 
-        //  sce_6.enteremailfield()
-        //  cy.wait(6000)
-
-
-        //  sce_6.clickverderBtn()
-        //  cy.wait(6000)
+         sce_6.sce6_enteremailfield()
+         cy.wait(6000)
 
 
-        //  sce_6.enternamefield()
-
-        //  sce_6.clickverderBtn()
-        //  cy.wait(6000)
+         sce_6.clickverderBtn()
+         cy.wait(6000)
 
 
-        //  sce_6.entertelefoonfield()
-        //  cy.wait(2000)
+         sce_6.sce6_enternamefield()
 
-        //  sce_6.clickverderBtn()
-        //  cy.wait(6000)
+         sce_6.clickverderBtn()
+         cy.wait(6000)
 
 
-        //  cy.contains('Je aanvraag is verstuurd!').should('be.visible');
+         sce_6.sce6_entertelefoonfield()
+         cy.wait(2000)
 
-        //  sce_6.clickverderBtn()
-        //  cy.wait(3000)
+         sce_6.clickverderBtn()
+         cy.wait(6000)
+
+
+         cy.contains('Je aanvraag is verstuurd!').should('be.visible');
+
+       
        
           
         });

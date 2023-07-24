@@ -49,23 +49,13 @@ export default class Scenario6_Actions{
     }
 
 
-    sce6_clickminderdan(){
-        element.sce6_minderdan().click()
+    clickjaBtn(){
+        element.jaBtn().click()
     }
 
 
-    sce6_clickouderdan(){
-        element.sce6_ouderdanbBtn().click()
-    }
-
-
-    sce6_clickwanneerBtn(){
-        element.sce6_wanneerBtn().click()
-    }
-
-
-    sce6_clickfotosnee(){
-        element.sce6_fotosneeBtn().click()
+    sce6_clicknextquestion(){
+        element.sce6_Nextquestion().click()
     }
 
 
@@ -77,6 +67,10 @@ export default class Scenario6_Actions{
     
     sce6_enteremailfield(){
         element.sce6_emailfield().type('dee@gmail.com')
+    }
+
+    clickverderBtn(){
+        element.verderBtn().click()
     }
     
 

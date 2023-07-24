@@ -100,9 +100,11 @@
         "sce6_Reparen":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6 > .root__radioIcon__172b8238",
         "sce6_duration":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6",
         "sce6_compareprice":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6 > .root__radioIcon__172b8238 > div",
+        "ja":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6",
         "sce6_NextQuestion":".btnReset__button__5b079537 > .large__proRequestForm__cb656f09",
         "sce6_AdditionalInfoField":".input__inputField__f8583b",
         "sce6_Email":".input__inputField__f8583b",
+        "verder":":nth-child(2) > .btnReset__button__5b079537",
         "sce6_FurtherBtn":".btnReset__button__5b079537.default__button__5b079537",
         "sce6_Name":".input__inputField__f8583b",
         "sce6_Telephone":"input[placeholder='Telefoonnummer']"
