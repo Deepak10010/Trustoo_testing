@@ -1,5 +1,5 @@
 cypress/videos
 cypress/screenshots
 cypress/reports
-allure-report
-allure-results
+CYPRESS/allure-report
+CYPRESS/allure-results
