@@ -72,6 +72,15 @@
     },
 
 
+    "Scenario4_locators":{
+        "sce4_waterleiding":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6",
+        "profile":"#_pro_smeets-installatietechniek > .rootCard__proListItemNewest__465d0f9 > a > .row__proListItemNewest__465d0f9 > .avatar__proAvatar__2b827670 > img",
+        "sce4_getquote":"//button[text() = 'Ontvang prijsopgave']"
+        
+
+    },
+
+
     "Scenario5_locators":{
         "sce5_waterleiding":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6",
         "compareprice":"//div[contains(@class,'comparePriceButton__proList__9dbb8d31 itemWrapper__proList__9dbb8d31 intermediate__proList__9dbb8d31 lastItem__proList__9dbb8d31')]//div//button[contains(@class,'')][normalize-space()='Vergelijk prijsopgaven']",
