@@ -20,7 +20,7 @@ describe("Scenario1 ",()=> {
 
     beforeEach(()=>{
       
-      cy.visit("http://trustoo.nl:3000")   
+      cy.visit("http://localhost:3000/")  
         firstPage.clickCookieBtn()   
 
     })   
@@ -66,11 +66,11 @@ describe("Scenario1 ",()=> {
         cy.log("Clicking the first result")
         firstPage.clickFirstResult()
 
-        cy.wait(3000);
+        cy.wait(6000);
 
 
         firstPage.clickwaterledingBtn()
-        cy.wait(5000);
+        cy.wait(6000);
 
         firstPage.clickReparenBtn()
         cy.wait(7000);
@@ -117,7 +117,7 @@ describe("Scenario1 ",()=> {
         
 
         firstPage.clickFurtherBtn()
-        cy.wait(4000);
+        cy.wait(8000);
 
 
         cy.contains('Je aanvraag is verstuurd!').should('be.visible');

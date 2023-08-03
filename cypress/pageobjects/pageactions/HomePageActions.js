@@ -75,7 +75,7 @@ export default class HomePageActions{
 
 
     EnterEmail(){
-        element.EmailField().type('dee@gmail.com')
+        element.EmailField().type('dee5432@gmail.com')
     }
 
 

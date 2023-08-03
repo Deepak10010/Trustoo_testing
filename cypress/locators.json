@@ -19,7 +19,7 @@
         "dienst":":nth-child(1) > .root__bigPicker__2ba7b284 > .root__inputField__f8583b > .label__inputField__f8583b",
         "locatie":":nth-child(2) > .root__bigPicker__2ba7b284 > .root__inputField__f8583b > .label__inputField__f8583b",
         "zoeken":":nth-child(1) > a > .btnReset__button__5b079537",
-        "FirstResultElement":"#_pro_smeets-installatietechniek > .rootCard__proListItemNewest__465d0f9 > a > .row__proListItemNewest__465d0f9 > .buttonCol__proListItemNewest__465d0f9 > .buttonRow__proListItemNewest__465d0f9 > :nth-child(2) > .btnReset__button__5b079537 > .quoteButtonText__ctaButton__6fbca880 > .hideSmaller__ctaButton__6fbca880",
+        "FirstResultElement":"#_pro_smeets-installatietechniek > .rootCard__proListItemNewest__465d0f9 > a > .row__proListItemNewest__465d0f9 > .buttonCol__proListItemNewest__465d0f9 > .buttonRow__proListItemNewest__465d0f9 > :nth-child(2) > .btnReset__button__5b079537",
         "waterleiding":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6",
         "Reparen":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6 > .root__radioIcon__172b8238",
         "duration":":nth-child(1) > .item__RadioCheckboxItem__25b1c9d6",
