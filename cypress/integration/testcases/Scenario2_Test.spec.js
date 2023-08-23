@@ -111,7 +111,7 @@ describe("Testing the Scenario 2 ",()=> {
          cy.wait(2000)
 
          sce_2.clickverderBtn()
-         cy.wait(6000)
+         cy.wait(9000)
 
 
          cy.contains('Je aanvraag is verstuurd!').should('be.visible');
